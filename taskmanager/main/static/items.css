@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body {
+  font-family: 'Poppins';
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: auto;
+}
+.menu-top{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  grid-gap: 50px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.menu-titles{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  grid-gap: 30px;
+  margin-left: 122px;
+  cursor: pointer;
+}
+.menu-icons{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  grid-gap: 36px;
+  margin-right: 122px;
+  margin-left: 375px;
+  align-items: center;
+}
+.logo{
+  margin-left: 115px;
+  font-size: 48px;
+  font-weight: bolder;
+  justify-content: center;
+}
+.start-items{
+  padding: 122px;
+  /*align-items: center;*/
+}
+.filter-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 66px;
+  background-color: grey;
+  margin-bottom: 80px;
+}
+.items-list{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 80px;
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pic-item{
+  background-color: grey;
+  width: 345px;
+  height: 345px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.cost-item{
+  color: grey;
+}
+.button-item{
+  display: flex;
+  cursor: pointer;
+  width: 170px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border-width: 3px;
+  border-color: grey;
+  border-style: solid;
+  margin-top: 30px;
+  transition: all 0.2s;
+}
+.button-item:hover{
+  background-color: grey;
+}
