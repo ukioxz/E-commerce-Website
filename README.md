@@ -2,7 +2,7 @@
 
 1. Install Django
 ```bash
-pip instal django
+pip install django
 ```
 
 2. Run server:
